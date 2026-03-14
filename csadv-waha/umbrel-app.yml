@@ -1,6 +1,6 @@
 manifestVersion: 1
 id: csadv-waha
-name: WAHA
+name: WAHA1
 tagline: WhatsApp HTTP API
 icon: https://raw.githubusercontent.com/devlikeapro/waha/main/.github/icon.png
 category: networking
@@ -9,5 +9,38 @@ port: 3000
 description: WhatsApp HTTP API server
 developer: Cesar
 website: https://github.com/devlikeapro/waha
-repo: https://github.com/devlikeapro/waha
-support: https://github.com/devlikeapro/waha/issues
+
+settings:
+  - id: WAHA_API_KEY
+    label: WAHA API Key
+    type: password
+    default: api_key
+
+  - id: DASHBOARD_USERNAME
+    label: Dashboard Username
+    type: text
+    default: admin
+
+  - id: DASHBOARD_PASSWORD
+    label: Dashboard Password
+    type: password
+    default: admin
+
+  - id: SWAGGER_USERNAME
+    label: Swagger Username
+    type: text
+    default: admin
+
+  - id: SWAGGER_PASSWORD
+    label: Swagger Password
+    type: password
+    default: admin
+
+  - id: OLLAMA_BASE_URL
+    label: Ollama Base URL
+    type: text
+    default: http://host.docker.internal:11434
+
+  - id: TUNNEL_TOKEN
+    label: Cloudflare Tunnel Token
+    type: password
