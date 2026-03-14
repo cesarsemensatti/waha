@@ -1,25 +1,13 @@
 manifestVersion: 1
 id: csadv-waha
 name: WAHA
-tagline: A one-click WhatsApp API
-icon: https://github.com/devlikeapro/waha/raw/core/logo.png
+tagline: WhatsApp HTTP API
+icon: https://raw.githubusercontent.com/devlikeapro/waha/main/.github/icon.png
 category: networking
-version: "2026.03.14"
-port: 3001
+version: "1.0.0"
+port: 3000
 description: WhatsApp HTTP API server
-developer: devlikeapro
-website: https://waha.devlike.pro/
-submitter: cesarsemensatti
-submission: https://github.com/getumbrel/umbrel-apps/pull/
+developer: Cesar
+website: https://github.com/devlikeapro/waha
 repo: https://github.com/devlikeapro/waha
 support: https://github.com/devlikeapro/waha/issues
-gallery:
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-waha/1.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-waha/2.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-waha/3.jpg
-  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-waha/4.jpg
-releaseNotes: Personal use.
-dependencies: []
-path: ""
-defaultUsername: ""
-defaultPassword: ""
