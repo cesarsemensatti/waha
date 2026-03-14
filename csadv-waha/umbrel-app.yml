@@ -26,6 +26,11 @@ submitter: cesarsemensatti
 submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/devlikeapro/waha
 support: https://github.com/devlikeapro/waha/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-waha/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-waha/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-waha/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-waha/4.jpg
 releaseNotes: >-
   This update introduces mandatory security credentials, including API and dashboard passwords, and blocks weak defaults like “123” or “admin.” It also fixes issues with image sending through proxies, database locking errors, and improves ChatWoot group message handling.
 dependencies: []
