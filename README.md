@@ -1,3 +1,7 @@
+![alt text](https://github.com/cesarsemensatti/waha/blob/main/logo.png?raw=true)
+
+WAHA - WhatsApp HTTP API (REST API) that you can install on your own server and run in less than 5 minutes!
+
 ## Umbrel Community App Store Template
 
 This repository is a template to create an Umbrel Community App Store. These additional app stores allow developers to distribute applications without submitting to the [Official Umbrel App Store](https://github.com/getumbrel/umbrel-apps).
