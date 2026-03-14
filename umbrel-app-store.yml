@@ -23,6 +23,11 @@ submitter: cesarsemensatti
 submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/devlikeapro/waha
 support: https://github.com/devlikeapro/waha/issues
+gallery:
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-waha/1.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-waha/2.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-waha/3.jpg
+  - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-waha/4.jpg
 releaseNotes: >-
   Local WAHA for personal project.
 dependencies: []
