@@ -2,7 +2,7 @@ manifestVersion: 1
 id: csadv-waha
 name: WAHA
 tagline: A one-click WhatsApp API
-icon: https://github.com/cesarsemensatti/waha/blob/master/logo.png?raw=true
+icon: https://github.com/devlikeapro/waha/raw/core/logo.png
 category: networking
 version: "2026.03.14"
 port: 3001
