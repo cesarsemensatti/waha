@@ -1,6 +1,8 @@
 ![alt text](https://github.com/cesarsemensatti/waha/blob/master/logo.png?raw=true)
-
 WAHA - WhatsApp HTTP API (REST API) that you can install on your own server and run in less than 5 minutes!
+developer: devlikeapro
+website: https://waha.devlike.pro/
+submitter: cesarsemensatti
 
 ## Umbrel Community App Store Template
 
