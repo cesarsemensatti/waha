@@ -5,7 +5,7 @@ tagline: WhatsApp HTTP API
 icon: https://raw.githubusercontent.com/devlikeapro/waha/main/.github/icon.png
 category: networking
 version: "1.0.0"
-port: 3000
+port: 3001
 description: WhatsApp HTTP API server
 developer: Cesar
 website: https://github.com/devlikeapro/waha
