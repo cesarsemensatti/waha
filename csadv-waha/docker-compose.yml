@@ -3,21 +3,21 @@ services:
   app_proxy:
     environment:
       APP_HOST: csadv-waha_web_1
-      APP_PORT: 3000
+      APP_PORT: 3001
 
   web:
     image: devlikeapro/waha:latest
     restart: unless-stopped
     user: "0:0"
     environment:
-      - OLLAMA_BASE_URL=http://host.docker.internal:11434
-      - WAHA_SERVER_HOST=0.0.0.0
-      - WAHA_SERVER_PORT=3000
-      - WHATSAPP_SWAGGER_USERNAME=user
-      - WHATSAPP_SWAGGER_PASSWORD=pass
-      - WAHA_API_KEY=api_key
-      - WAHA_DASHBOARD_USERNAME=user
-      - WAHA_DASHBOARD_PASSWORD=pass
+      OLLAMA_BASE_URL: ${OLLAMA_BASE_URL}
+      WAHA_SERVER_HOST: 0.0.0.0
+      WAHA_SERVER_PORT: 3000
+      WHATSAPP_SWAGGER_USERNAME: ${SWAGGER_USERNAME}
+      WHATSAPP_SWAGGER_PASSWORD: ${SWAGGER_PASSWORD}
+      WAHA_API_KEY: ${WAHA_API_KEY}
+      WAHA_DASHBOARD_USERNAME: ${DASHBOARD_USERNAME}
+      WAHA_DASHBOARD_PASSWORD: ${DASHBOARD_PASSWORD}
     volumes:
       - ${APP_DATA_DIR}/data/sessions:/app/.sessions
       - ${APP_DATA_DIR}/data/media:/app/.media
@@ -27,6 +27,6 @@ services:
     restart: unless-stopped
     command: tunnel --no-autoupdate run
     environment:
-      - TUNNEL_TOKEN=tunnel_token
+      TUNNEL_TOKEN: ${TUNNEL_TOKEN}
     depends_on:
       - web
