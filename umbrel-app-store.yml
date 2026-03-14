@@ -1,5 +1,5 @@
 id: "csadv" # Choose the ID for your app store. This should contain only alphabets ("a to z") and dashes ("-").
-name: "waha" # Choose the name of your app store. It will show up in the UI as "<name> App Store".
+name: "Cesar" # Choose the name of your app store. It will show up in the UI as "<name> App Store".
 category: networking
 version: "2026.03.14"
 port: 3001
