@@ -5,7 +5,7 @@ tagline: WhatsApp HTTP API
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-waha/logo.png
 category: networking
 version: "1.0.0"
-port: 3001
+port: 3000
 description: WhatsApp HTTP API server
 developer: Cesar
 website: https://github.com/devlikeapro/waha
